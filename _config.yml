@@ -1,0 +1,26 @@
+
+remote_theme: ISSAE/architect
+
+
+
+name: nouveau nom
+
+
+
+author: Pascal Fares
+
+
+
+author_email: pascal.fares@isae.edu.lb
+
+
+
+title: Un test de gihub page
+
+google_analytics: UA-29708002-2
+
+
+
+plugins:
+
+  - jekyll-sitemap
