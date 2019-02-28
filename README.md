@@ -18,4 +18,4 @@ Let’s see the analogies between Mongo and a traditional MySQL system:
 This is a simplistic way to look at the MongoDB core concepts of course, but nevertheless useful.
 Now, let’s dive into implementation to understand this powerful database.
 <p>
-</div>
+
