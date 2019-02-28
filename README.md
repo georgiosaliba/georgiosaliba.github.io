@@ -10,11 +10,11 @@ The above-mentioned data model gives us the ability to represent hierarchical re
 
 ## Terminologies<br>
 <p>Understanding concepts in MongoDB becomes easier if we can compare them to relational database structures.
-Let’s see the analogies between Mongo and a traditional MySQL system:
- 1. Table in MySQL becomes a Collection in Mongo
- 2. Row becomes a Document
- 3. Column becomes a Field
- 4. Joins are defined as linking and embedded documents
+Let’s see the analogies between Mongo and a traditional MySQL system:<br>
+ 1. Table in MySQL becomes a Collection in Mongo<br>
+ 2. Row becomes a Document<br>
+ 3. Column becomes a Field<br>
+ 4. Joins are defined as linking and embedded documents<br>
 This is a simplistic way to look at the MongoDB core concepts of course, but nevertheless useful.
 Now, let’s dive into implementation to understand this powerful database.
 <p>
