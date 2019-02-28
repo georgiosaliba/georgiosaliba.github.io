@@ -51,6 +51,7 @@ MongoClient mongoClient = new MongoClient("localhost", 27017);
 ```java
 Mongo mongo = new Mongo("localhost", 27017);
 ```
+<br>
 
 ## 6 Connecting to a Database<br>
 <p>Now, let’s connect to our database. It is interesting to note that we don’t need to create one. When Mongo sees that database doesn’t exist, it will create it for us:</p>
@@ -66,6 +67,8 @@ MongoClient mongoClient = new MongoClient();
 DB database = mongoClient.getDB("myMongoDb");
 boolean auth = database.authenticate("username", "pwd".toCharArray());
 ```
+<br>
+
 ## 7 Show Existing Databases<br>
 <p>Let’s display all existing databases. When we want to use the command line, the syntax to show databases is similar to MySQL:</p>
 
@@ -88,6 +91,8 @@ myMongoDb  0.000GB
 Above, local is the default Mongo database.
  </p>
  
+ <br>
+ 
 ## 8 Create a Collection<br>
 <p>Let’s start by creating a Collection (table equivalent for MongoDB) for our database. Once we have connected to our database, we can make a Collection as:</p>
 
@@ -107,6 +112,7 @@ The output will be:</p>
 ```java
 customers
 ```
+<br>
 
 ## 9 Save – Insert<br>
 <p>The save operation has save-or-update semantics: if an id is present, it performs an update, if not – it does an insert.
@@ -130,6 +136,8 @@ collection.insert(document);
 }
 ```
 <p>Next, we’ll look at the same operation – save – with update semantics.</p>
+
+<br>
 
 ## 10 Save – Update<br>
 <p>
@@ -170,6 +178,8 @@ collection.update(query, updateObject);
 <p>
 As you can see, in this particular example, save uses the semantics of update, because we use object with given _id.</p>
 
+<br>
+
 ## 11 Read a Document from a Collection<br>
 
 <p>Let’s search for a Document in a Collection by making a query:</p>
@@ -195,6 +205,7 @@ It will show the only Document we have by now in our Collection:</p>
     }
 ]
 ```
+<br>
 
 ## 12 Delete a Document<br>
 <p>
@@ -208,6 +219,8 @@ collection.remove(searchQuery);
 ```
 <p>
 With above command executed, our only Document will be removed from the Collection.</p>
+
+<br>
 
 ## Conclusion<br>
 <p>
