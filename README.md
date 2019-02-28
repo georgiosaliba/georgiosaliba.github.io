@@ -18,4 +18,13 @@ Let’s see the analogies between Mongo and a traditional MySQL system:<br>
 This is a simplistic way to look at the MongoDB core concepts of course, but nevertheless useful.
 Now, let’s dive into implementation to understand this powerful database.
 <p>
-
+ 
+## Maven Dependencies<br>
+We need to start by defining the dependency of a Java Driver for MongoDB:<br>
+```java
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongo-java-driver</artifactId>
+    <version>3.4.1</version>
+</dependency>
+```
