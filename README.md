@@ -8,6 +8,7 @@ the structure of a record can be changed simply by adding new fields or deleting
 The above-mentioned data model gives us the ability to represent hierarchical relationships, to store arrays and other more complex structures easily.
 </p>
 
+<br>
 
 ## 2 Terminologies<br>
 <p>Understanding concepts in MongoDB becomes easier if we can compare them to relational database structures.
@@ -20,6 +21,8 @@ This is a simplistic way to look at the MongoDB core concepts of course, but nev
 Now, let’s dive into implementation to understand this powerful database.
 <p>
  
+ <br>
+ 
 ## 3 Maven Dependencies<br>
 <p> We need to start by defining the dependency of a Java Driver for MongoDB:</p><br>
 
@@ -30,9 +33,12 @@ Now, let’s dive into implementation to understand this powerful database.
     <version>3.4.1</version>
 </dependency>
 ```
+<br>
 
 ## 4 Using MongoDB<br>
 <p>Now, let’s start implementing Mongo queries with Java. We will follow with the basic CRUD operations as they are the best to start with.</p>
+
+<br>
 
 ## 5 Make a Connection with MongoClient<br>
 <p>First, let’s make a connection to a MongoDB server. With version >= 2.10.0, we’ll use the MongoClient:</p>
