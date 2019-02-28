@@ -90,6 +90,7 @@ Above, local is the default Mongo database.
  
 ## 8 Create a Collection<br>
 <p>Let’s start by creating a Collection (table equivalent for MongoDB) for our database. Once we have connected to our database, we can make a Collection as:</p>
+
 ```java
 database.createCollection("customers", null);
 ```
@@ -102,6 +103,7 @@ database.getCollectionNames().forEach(System.out::println);
 ```
 <p>
 The output will be:</p>
+
 ```java
 customers
 ```
