@@ -1,4 +1,5 @@
 
+
 ## 1 MongoDB <br>
 <p>Let’s start with a few key points about MongoDB itself:
 stores data in JSON-like documents that can have various structures
@@ -21,6 +22,7 @@ Now, let’s dive into implementation to understand this powerful database.
  
 ## 3 Maven Dependencies<br>
 <p> We need to start by defining the dependency of a Java Driver for MongoDB:</p><br>
+
 ```java
 <dependency>
     <groupId>org.mongodb</groupId>
@@ -39,6 +41,7 @@ Now, let’s dive into implementation to understand this powerful database.
 MongoClient mongoClient = new MongoClient("localhost", 27017);
 ```
 <p>And for older versions use Mongo class:</p>
+
 ```java
 Mongo mongo = new Mongo("localhost", 27017);
 ```
